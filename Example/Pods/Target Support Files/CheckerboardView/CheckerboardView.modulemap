@@ -1,0 +1,6 @@
+framework module CheckerboardView {
+  umbrella header "CheckerboardView-umbrella.h"
+
+  export *
+  module * { export * }
+}

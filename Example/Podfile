@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'CheckerboardView_Example' do
   pod 'CheckerboardView', :path => '../'
-
-  target 'CheckerboardView_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

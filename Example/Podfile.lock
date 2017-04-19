@@ -1,0 +1,16 @@
+PODS:
+  - CheckerboardView (0.1.0)
+
+DEPENDENCIES:
+  - CheckerboardView (from `../`)
+
+EXTERNAL SOURCES:
+  CheckerboardView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CheckerboardView: 6036cd07df8eef6534d315cfe7ff7c6b05d3bddb
+
+PODFILE CHECKSUM: 1021c3fe3573d9e216d82690c157603414357e35
+
+COCOAPODS: 1.2.0
