@@ -1,5 +1,5 @@
 PODS:
-  - CheckerboardView (0.1.0)
+  - CheckerboardView (1.0.0)
 
 DEPENDENCIES:
   - CheckerboardView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CheckerboardView: 6036cd07df8eef6534d315cfe7ff7c6b05d3bddb
+  CheckerboardView: b5ac340d96b7dc89862f9013d97c575e478c0828
 
 PODFILE CHECKSUM: 1021c3fe3573d9e216d82690c157603414357e35
 
