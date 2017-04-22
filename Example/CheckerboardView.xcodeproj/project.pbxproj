@@ -29,9 +29,6 @@
 		6221AF4812CFD07820234CF9 /* Pods-CheckerboardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckerboardView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckerboardView_Example/Pods-CheckerboardView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		81468C2D8ED9590C51355E15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C3B0F29C83E90D7C3AADB187 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C46817FA5BD786EE75944F11 /* Pods-CheckerboardView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckerboardView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckerboardView_Tests/Pods-CheckerboardView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6B8CE5C2AE42A43D5A5A65B /* Pods_CheckerboardView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckerboardView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEDA364DF1ECB975F4168797 /* Pods-CheckerboardView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckerboardView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckerboardView_Tests/Pods-CheckerboardView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				4BA04064B5740E90118724AA /* Pods_CheckerboardView_Example.framework */,
-				C6B8CE5C2AE42A43D5A5A65B /* Pods_CheckerboardView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,8 +107,6 @@
 			children = (
 				5E811333F8F28E7A5CEA7217 /* Pods-CheckerboardView_Example.debug.xcconfig */,
 				6221AF4812CFD07820234CF9 /* Pods-CheckerboardView_Example.release.xcconfig */,
-				C46817FA5BD786EE75944F11 /* Pods-CheckerboardView_Tests.debug.xcconfig */,
-				FEDA364DF1ECB975F4168797 /* Pods-CheckerboardView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -230,7 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

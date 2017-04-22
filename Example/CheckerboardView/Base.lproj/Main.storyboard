@@ -85,19 +85,27 @@
                                         <rect key="frame" x="0.0" y="24" width="375" height="16"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4EB-IT-b82">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="16"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="125" height="16"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <state key="normal" title="Change to orange"/>
+                                                <state key="normal" title="Random color"/>
                                                 <connections>
-                                                    <action selector="actionButton3:" destination="XfP-N6-NSt" eventType="touchUpInside" id="ahU-Ve-gNL"/>
+                                                    <action selector="actionRandomColor:" destination="XfP-N6-NSt" eventType="touchUpInside" id="sIJ-bu-hDf"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3Y-MM-S2n">
+                                                <rect key="frame" x="125" y="0.0" width="125" height="16"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <state key="normal" title="Random 1st color"/>
+                                                <connections>
+                                                    <action selector="actionRandomFirstColor:" destination="XfP-N6-NSt" eventType="touchUpInside" id="DQ2-e1-Qto"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ml-VU-ZY2">
-                                                <rect key="frame" x="187.5" y="0.0" width="187.5" height="16"/>
+                                                <rect key="frame" x="250" y="0.0" width="125" height="16"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                <state key="normal" title="Change to blue"/>
+                                                <state key="normal" title="Random 2nd color"/>
                                                 <connections>
-                                                    <action selector="actionButton4:" destination="XfP-N6-NSt" eventType="touchUpInside" id="Qel-Ur-PAr"/>
+                                                    <action selector="actionRandomSecondColor:" destination="XfP-N6-NSt" eventType="touchUpInside" id="DqY-ew-9RZ"/>
                                                 </connections>
                                             </button>
                                         </subviews>

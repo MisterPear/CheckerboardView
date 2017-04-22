@@ -39,12 +39,16 @@ class ViewController: UIViewController {
         outletCheckerboardView.columns -= 1
     }
     
-    @IBAction func actionButton3(_ sender: Any) {
-        outletCheckerboardView.firstColor = .orange
+    @IBAction func actionRandomColor(_ sender: Any) {
+        outletCheckerboardView.randomColor()
     }
     
-    @IBAction func actionButton4(_ sender: Any) {
-        outletCheckerboardView.secondColor = .blue
+    @IBAction func actionRandomFirstColor(_ sender: Any) {
+        outletCheckerboardView.randomFirstColor()
+    }
+    
+    @IBAction func actionRandomSecondColor(_ sender: Any) {
+        outletCheckerboardView.randomSecondColor()
     }
 
 }

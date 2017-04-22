@@ -84,6 +84,8 @@ import UIKit
         self.setup()
     }
     
+    // MARK: - Private methods
+    
     private func setup() {
         layer.masksToBounds = true
         
@@ -116,6 +118,32 @@ import UIKit
             }
         }
         
+    }
+    
+    // MARK: - Public methods
+    
+    public func randomColor() {
+        let randomFirst = randomUIColor()
+        let randomSecond = randomUIColor()
+        
+        firstColor = randomFirst
+        secondColor = randomSecond
+    }
+    
+    public func randomFirstColor() {
+        firstColor = randomUIColor()
+    }
+    
+    public func randomSecondColor() {
+        secondColor = randomUIColor()
+    }
+    
+    fileprivate func randomUIColor() -> UIColor {
+        let randomRed:CGFloat = CGFloat(drand48())
+        let randomGreen:CGFloat = CGFloat(drand48())
+        let randomBlue:CGFloat = CGFloat(drand48())
+        
+        return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
     }
     
 }
