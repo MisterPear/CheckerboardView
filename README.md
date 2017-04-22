@@ -29,6 +29,8 @@ pod "CheckerboardView"
 
 ![](/Images/AttributesInspector.png)
 
+Have fun ! :beer:
+
 ### License
 
-MIT License.
+[MIT License](./LICENSE)
