@@ -123,27 +123,16 @@ import UIKit
     // MARK: - Public methods
     
     public func randomColor() {
-        let randomFirst = randomUIColor()
-        let randomSecond = randomUIColor()
-        
-        firstColor = randomFirst
-        secondColor = randomSecond
+        firstColor = .random
+        secondColor = .random
     }
     
     public func randomFirstColor() {
-        firstColor = randomUIColor()
+        firstColor = .random
     }
     
     public func randomSecondColor() {
-        secondColor = randomUIColor()
-    }
-    
-    fileprivate func randomUIColor() -> UIColor {
-        let randomRed:CGFloat = CGFloat(drand48())
-        let randomGreen:CGFloat = CGFloat(drand48())
-        let randomBlue:CGFloat = CGFloat(drand48())
-        
-        return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1.0)
+        secondColor = .random
     }
     
 }

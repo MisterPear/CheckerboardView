@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100AA71F1EAC20F600ED70AD /* UIColor+CheckerboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100AA71E1EAC20F600ED70AD /* UIColor+CheckerboardView.swift */; };
 		575DA3CEDF3FF10942311E728CD63E43 /* CheckerboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C5AB74FA735023803D569D6D5EC0CE /* CheckerboardView.swift */; };
 		6B5B12669C86057FD8D4206856E55E62 /* CheckerboardView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEA89D4957762FCA6E065E892D613734 /* CheckerboardView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACF0D6933334EF4AE5C77E7AF8B29628 /* Pods-CheckerboardView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD0FAFD9C94DACC7EBEE57265B3A393E /* Pods-CheckerboardView_Example-dummy.m */; };
@@ -30,22 +31,23 @@
 		0872B644DB8F9050568BE4DA3A47D124 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B125D0E907D94FBCCC8D35F082A5FDB /* Pods-CheckerboardView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckerboardView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0EA2F8CB73A979E83A8ABD7B9F117FD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100AA71E1EAC20F600ED70AD /* UIColor+CheckerboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CheckerboardView.swift"; sourceTree = "<group>"; };
 		2E76E968A2C8AEE4EA6A29C9335F0F8E /* Pods-CheckerboardView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CheckerboardView_Example-umbrella.h"; sourceTree = "<group>"; };
 		33E11E565C150E50605C7869223172D8 /* Pods-CheckerboardView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckerboardView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		348522199BED7B81BE4DBF07DAE7B608 /* CheckerboardView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckerboardView-prefix.pch"; sourceTree = "<group>"; };
 		3A53725132D620310DA8D35B41EF3346 /* CheckerboardView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckerboardView.xcconfig; sourceTree = "<group>"; };
 		40E63407A7DBF7F0ED0861F6B868506C /* Pods-CheckerboardView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckerboardView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5DDC659FFDDE8C9BC11944A6E3C957CC /* CheckerboardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CheckerboardView.modulemap; sourceTree = "<group>"; };
+		5DDC659FFDDE8C9BC11944A6E3C957CC /* CheckerboardView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CheckerboardView.modulemap; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A3801A9A87DB21F4B13E78E58043031 /* Pods-CheckerboardView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CheckerboardView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		886CF42E0B07487A5FA6E7C88EB0D988 /* Pods_CheckerboardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CheckerboardView_Example.framework; path = "Pods-CheckerboardView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F10C4AD896C9AD09CADCF35F5E0AF14 /* CheckerboardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckerboardView.framework; path = CheckerboardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		886CF42E0B07487A5FA6E7C88EB0D988 /* Pods_CheckerboardView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckerboardView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F10C4AD896C9AD09CADCF35F5E0AF14 /* CheckerboardView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CheckerboardView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98C5AB74FA735023803D569D6D5EC0CE /* CheckerboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CheckerboardView.swift; sourceTree = "<group>"; };
 		9FDF987D23D1E3F7556A6A8FD9BA1027 /* Pods-CheckerboardView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CheckerboardView_Example-resources.sh"; sourceTree = "<group>"; };
 		AD0FAFD9C94DACC7EBEE57265B3A393E /* Pods-CheckerboardView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckerboardView_Example-dummy.m"; sourceTree = "<group>"; };
 		C243C809B2D4287F09492277807399FE /* Pods-CheckerboardView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckerboardView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C4022D3ED3F8E7156B9550C22972F024 /* Pods-CheckerboardView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CheckerboardView_Example.modulemap"; sourceTree = "<group>"; };
+		C4022D3ED3F8E7156B9550C22972F024 /* Pods-CheckerboardView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CheckerboardView_Example.modulemap"; sourceTree = "<group>"; };
 		EB7C5D6C38EDDB34EC6288EB8129725A /* CheckerboardView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckerboardView-dummy.m"; sourceTree = "<group>"; };
 		FEA89D4957762FCA6E065E892D613734 /* CheckerboardView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckerboardView-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +105,6 @@
 			children = (
 				5F9FCE061B4F51474CD8393536A15CEC /* Classes */,
 			);
-			name = CheckerboardView;
 			path = CheckerboardView;
 			sourceTree = "<group>";
 		};
@@ -141,8 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				98C5AB74FA735023803D569D6D5EC0CE /* CheckerboardView.swift */,
+				100AA71E1EAC20F600ED70AD /* UIColor+CheckerboardView.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -271,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100AA71F1EAC20F600ED70AD /* UIColor+CheckerboardView.swift in Sources */,
 				B26F32C2ED6E39CD3B1562B83641A470 /* CheckerboardView-dummy.m in Sources */,
 				575DA3CEDF3FF10942311E728CD63E43 /* CheckerboardView.swift in Sources */,
 			);
