@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CheckerboardView'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A simple and customizable Checkerboard !'
   s.description      = <<-DESC
 A simple view for customize your UI with a nice checkerboard !
