@@ -10,6 +10,8 @@ import UIKit
 
 @IBDesignable public class CheckerboardView: UIView {
     
+    // MARK: Inspectable
+    
     @IBInspectable public var lines: Int = 1 {
         didSet {
             if lines < 1 {
@@ -46,9 +48,12 @@ import UIKit
         }
     }
     
+    // MARK: Properties
+    
     var firstBoxes: [CALayer] = []
     var secondBoxes: [CALayer] = []
     
+    // MARK: Init
     
     override public init(frame: CGRect) {
         super.init(frame: frame)
@@ -71,6 +76,8 @@ import UIKit
         
         self.setup()
     }
+    
+    // MARK: Override
     
     override public func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
